@@ -269,12 +269,32 @@ button:hover {
   margin-bottom: 100px;
 }
 
-/* CLASSES AND IDS */
-
 .plnt {
   height: 300px;
   width: auto;
   border: solid #3882f6 5px;
   border-radius: 10px;
   margin-bottom: 25px;
+}
+
+/* ----- Quote Section ----- */
+
+.middle-container {
+  background-color: #e5e7eb;
+  padding: 200px;
+}
+
+.middle-container > p:first-child {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+}
+
+.middle-container > p:last-child {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: right;
+  width: 80%;
+  margin-top: 50px;
 }
