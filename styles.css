@@ -191,7 +191,7 @@ button:hover {
   flex-grow: 1;
   justify-content: flex-end;
   margin-bottom: 50px;
-  margin-right: 200px;
+  margin-right: 185px;
 }
 
 .herotext {
@@ -242,9 +242,39 @@ button:hover {
   margin-left: 270px;
   margin-right: 200px;
 }
+
+/* -----INFORMATION CENTER----- */
+
+.top-container > h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.art {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.p-art {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 100px;
+}
+
 /* CLASSES AND IDS */
 
 .plnt {
-  height: 200px;
+  height: 300px;
   width: auto;
+  border: solid #3882f6 5px;
+  border-radius: 10px;
+  margin-bottom: 25px;
 }
