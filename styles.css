@@ -167,9 +167,6 @@ h1 {
   font-weight: bold;
 }
 
-button:hover {
-  cursor: pointer;
-}
 /* -----HEADER CLASSES----- */
 
 .header-intro > p {
@@ -225,7 +222,13 @@ button:hover {
   font-weight: bold;
   padding: 10px 30px;
   margin-top: 20px;
-  transition: 1s;
+}
+
+.header-intro > button:hover {
+  cursor: pointer;
+  background-color: #1f2937;
+  color: #f9faf8;
+  transition: 0.5s;
 }
 
 .header-container {
@@ -297,4 +300,47 @@ button:hover {
   text-align: right;
   width: 80%;
   margin-top: 50px;
+}
+
+/* ----- BOTTOM CONTAINER ----- */
+
+.bottom-container {
+  background-color: #f9faf8;
+  margin: 100px auto;
+}
+
+.btm-sec {
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: #f9faf8;
+  display: flex;
+  padding: 30px 70px;
+  margin: 0 auto;
+  width: 50%;
+  align-items: baseline;
+}
+
+.btm-sec > h4 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.btm-sec > p {
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.btm-sec > button {
+  background: none;
+  color: #f9faf8;
+  border: solid #f9faf8 5px;
+  border-radius: 10px;
+  padding: 10px 40px;
+  text-align: right;
+}
+
+.btm-sec > button:hover {
+  background-color: #f9faf8;
+  color: #1f2937;
+  transition: 0.5s;
 }
