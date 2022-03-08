@@ -132,6 +132,7 @@ table {
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #f9faf8;
 }
 
 a {
@@ -284,7 +285,7 @@ h1 {
 
 .middle-container {
   background-color: #e5e7eb;
-  padding: 200px;
+  padding: 100px 200px;
 }
 
 .middle-container > p:first-child {
@@ -343,4 +344,16 @@ h1 {
   background-color: #f9faf8;
   color: #1f2937;
   transition: 0.5s;
+}
+
+/* ----- FOOTER ----- */
+
+footer {
+  text-align: center;
+  padding: 25px 300px;
+}
+
+footer > p {
+  font-weight: lighter;
+  color: #f9faf8;
 }
